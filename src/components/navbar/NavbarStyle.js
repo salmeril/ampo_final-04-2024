@@ -100,3 +100,48 @@ export const NavbarMobilIcon = styled(FaBars)`
     }
 
 `
+
+
+
+export const HeaderBanner = styled.div`
+display: block;
+align-items: center;
+jusify-content: center;
+width: 100%;
+background: #000000;
+height: 5vh;
+position : fixed;
+top: 80px ;
+
+margin-bottom: 5px;
+
+align-items : center;
+
+
+@media screen and (max-width : 1024px){
+    
+    width : 100%;
+    text-align : center;
+}
+@media screen and (max-width : 1440px){
+    
+    width : 100%;
+    text-align : center;
+}
+
+
+`
+
+export const HeaderBannerTextP = styled.p`
+    color : white;
+    display : flex;
+    font-size : 1.2 rem;
+    justify-content : center;
+    margin-top: 15px;
+     width : 100%;
+
+     @media screen and (max-width : 1024px){
+        margin-top: 5px;
+        font-size: 0.7rem;
+    }
+`

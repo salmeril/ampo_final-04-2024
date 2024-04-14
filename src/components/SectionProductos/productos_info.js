@@ -15,7 +15,7 @@ export const infoProductosUno = {
     parrafo : "Descubre la elegancia atemporal en nuestro catálogo de envases de vidrio para cosmética",
     foto : cosmeticaVidrio,
     orden : false,
-    url_catalogo :"https://drive.google.com/drive/folders/1TCvuIED6GaVtbz5IGlotQ71vXpFbquc0?usp=drive_link",
+    url_catalogo :'/downloads/Envases cosmetica vidrio.pdf',
     background : true,
 }
 
@@ -24,7 +24,7 @@ export const infoProductosDos = {
     parrafo :"Descubre la versatilidad en nuestro catálogo de Envases de plástico.",
     foto : cosmeticaPlastico,
     orden : true,
-    url_catalogo :"https://drive.google.com/drive/folders/1UwItdb9LUl3SR_jqJ5EzUkLK3XLJiP7V?usp=drive_link",
+    url_catalogo :'/downloads/Envases de cosmetica plastico.pdf',
     background : false,
 }
 
@@ -33,7 +33,7 @@ export const infoProductosTres = {
     parrafo : "Descubre todas las Variedades de Envases y Accesorios para Cosmética.",
     foto : accesoriosCosmetica,
     orden : false,
-    url_catalogo :"https://drive.google.com/drive/folders/1wRRG9MobDE_XG9z2bjYv7p9J0oplZxkx?usp=drive_link",
+    url_catalogo :'downloads/Accesorios de cosmetica.pdf',
     background: true
 }
 
@@ -43,7 +43,7 @@ export const infoProductosCuatro = {
 
     foto : vidriodeco,
     orden : true,
-    url_catalogo :"https://drive.google.com/drive/folders/1rxu_371J639VcFEHcK43Z_VkSgGA344h?usp=drive_link",
+    url_catalogo :'downloads/Vidrio decorativo.pdf',
     background : false
 }
 
@@ -52,7 +52,7 @@ export const infoProductosCinco = {
     parrafo : "Descubre la Variedad de combinaciones en modelos de Envases y tapas.",
     foto : envasesytapas,
     orden : false,
-    url_catalogo :"https://drive.google.com/drive/folders/1k0tZ4uBKiz4RN4QdH2hJRMantnayzxhF?usp=drive_link",
+    url_catalogo :'downloads/envases y tapas.pdf',
     background: true
 }
 
@@ -61,7 +61,7 @@ export const infoProductosSeis = {
     parrafo : "Conoce todos los Envases Alimenticios que Tenemos para Ofrecer.",
     foto : alimenticio,
     orden : true,
-    url_catalogo :"https://drive.google.com/drive/folders/1h3S6XDVPJPfBCEcJnp4gybpBP6qnUhxB?usp=drive_link",
+    url_catalogo :'downloads/Envases alimenticios.pdf',
     background : false
 }
 
@@ -70,7 +70,7 @@ export const infoProductosSiete = {
     parrafo : "Descubre la Variedad de Frascos de Plástico PET.",
     foto : pet,
     orden : false,
-    url_catalogo :"https://drive.google.com/drive/folders/1waKMsfXKtrjkzTSgpC07K_dQZfI_lSKK?usp=drive_link",
+    url_catalogo :'downloads/Catalogo PET.pdf',
     background : true
 }
 
@@ -79,15 +79,15 @@ export const infoProductosOcho = {
     parrafo : "Descubre la versatilidad en nuestro catálogo de botellas de plástico.",
     foto : bazar,
     orden : true,
-    url_catalogo :"https://drive.google.com/drive/folders/1qXD21BNSd4Q79zJ3lsg9VzWhhG1uDf4I?usp=drive_link",
+    url_catalogo :'downloads/Bazar plastico.pdf',
     background : false,
 }
 
 export const infoProductosNueve = {
-    titulo : "Catálogo Envases Alimenticios",
+    titulo : "Catálogo Vidrio linea Hogar",
     parrafo : "Descubre Nuestro Catálogo para la linea Hogar y Comercios.",
     foto : hogar,
     orden : false,
-    url_catalogo :"https://drive.google.com/drive/folders/13CbrqpNQMJSkUDNRS_f-i5iG84LadzQ8?usp=drive_link",
+    url_catalogo :'downloads/Linea Hogar Vidrio.pdf',
     background : true,
 }

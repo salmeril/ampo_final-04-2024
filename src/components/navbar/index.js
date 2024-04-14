@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react';
-import { Nav,NavContainer,NavMenu,NavLink,NavLogo,NavbarMobilIcon} from './NavbarStyle'
+import { Nav,NavContainer,NavMenu,NavLink,NavLogo,NavbarMobilIcon, HeaderBanner, HeaderBannerTextP} from './NavbarStyle'
 import logoSF from "../../assest/img/logo2.png"
+
 
 const NavBar = ({toggle}) => {
   const [scrollNav,setScrollNav] = useState(false);
@@ -18,13 +19,18 @@ const NavBar = ({toggle}) => {
   },[]);
 
 
+  
+
+
   // const scrollHome = () =>{
   //     scroll.scrollToTop();
   // }
 
   return (
     <>
+    
     <Nav scrollNav={scrollNav}>
+    
     <NavContainer >
       <NavLogo src={logoSF} />
       <NavbarMobilIcon onClick={toggle} />
@@ -65,9 +71,17 @@ const NavBar = ({toggle}) => {
         <NavLink>Tienda Online</NavLink>
       </NavMenu>
     </NavContainer>
+    
     </Nav>
+    <HeaderBanner>
+        <HeaderBannerTextP>
+            COMPRA MINIMA MAYORISTA $10.000 - CONSULTE OFERTAS EN PRODUCTOS SELECCIONADOS Y POR COMPRA EN CANTIDAD.
+        </HeaderBannerTextP>
+        </HeaderBanner> 
     </>
     )
 }
+
+
 
 export default NavBar
