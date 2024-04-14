@@ -1,0 +1,1 @@
+<ImageSlider images={images} currentImageIndex={currentImageIndex} imageSize={imageSize} />

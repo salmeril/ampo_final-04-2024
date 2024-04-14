@@ -37,7 +37,7 @@ const SectionProductos = ({
                                 <TopLine>{titulo}</TopLine>
                                 <Subtitle >{parrafo}</Subtitle>
                                 <BtnWrap>
-                                    <Btn href={url_catalogo}>Ver Productos</Btn>
+                                    <Btn href={url_catalogo} target='_blank'>Ver Productos</Btn>
                                 </BtnWrap>
                             </TextWrapper>
                         </Colum1>

@@ -91,3 +91,34 @@ transition : all .2s ease-in-out;
     text-align : center;
 }
 `
+
+export const HeaderBanner = styled.div`
+
+margin-left: 50vh;
+align-items: center;
+jusify-content: center;
+width: 1000px;
+height: 100px;
+top . 0;
+position : sticky;
+zIndex: 1;
+margin-bottom: 5px;
+margin-top: 20px;
+align-items : center;
+
+
+@media screen and (max-width : 1024px){
+    margin : 20px auto;
+    width : 80%;
+    text-align : center;
+}
+@media screen and (max-width : 1440px){
+    margin : 20px auto;
+    width : 80%;
+    text-align : center;
+}
+
+
+`
+
+
