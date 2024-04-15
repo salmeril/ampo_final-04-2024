@@ -109,7 +109,7 @@ align-items: center;
 jusify-content: center;
 width: 100%;
 background: #000000;
-height: 5vh;
+height: 6vh;
 position : fixed;
 top: 80px ;
 

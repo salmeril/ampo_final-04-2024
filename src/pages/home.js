@@ -18,6 +18,7 @@ import {infoProductosUno,
 } from '../components/SectionProductos/productos_info'
 import Contacto from '../components/sectionContacto'
 
+
 const Home = () => {
 
   const [isOpen,setIsOpen] = useState(false);
@@ -52,6 +53,7 @@ const Home = () => {
     <SectionProductos {...infoProductosOcho} />
     <SectionProductos {...infoProductosNueve} />
     <Contacto/>
+    
 
     </>
   )
