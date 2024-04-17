@@ -48,7 +48,7 @@ margin-bottom : 50px;
 export const TextPredes = styled.p`
 font-size : 17px;
 font-weight : bold;
-margin-top: 25px;
+margin-top: 120px;
 
 @media screen and (max-width : 1024px){
     text-align : center;
@@ -58,7 +58,7 @@ margin-top: 25px;
 
 export const SocialMedias = styled.div`
 display :flex;
-margin-top : 15px;
+margin-top : 25px;
 @media screen and (max-width : 1024px){
     text-align : center;
     margin : 0 auto;

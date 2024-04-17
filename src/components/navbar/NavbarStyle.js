@@ -20,7 +20,7 @@ align-items : center;
 export const NavContainer = styled.div`
     display: flex;
     justify-content : space-between;
-    height : 80px;
+    height : 90px;
     z-index : 1;
     width : 100%;
     padding : 0 24px;
@@ -109,24 +109,35 @@ align-items: center;
 jusify-content: center;
 width: 100%;
 background: #000000;
-height: 6vh;
+height: 7vh;
 position : fixed;
 top: 80px ;
+z-index: 20;
 
 margin-bottom: 5px;
 
 align-items : center;
 
 
+
+@media screen and (min-width : 740px){
+    
+    width : 100%;
+    text-align : center;
+    height: 6vh;
+}
+
 @media screen and (max-width : 1024px){
     
     width : 100%;
     text-align : center;
+    
 }
 @media screen and (max-width : 1440px){
     
     width : 100%;
     text-align : center;
+    
 }
 
 
@@ -135,13 +146,30 @@ align-items : center;
 export const HeaderBannerTextP = styled.p`
     color : white;
     display : flex;
-    font-size : 1.2 rem;
+    font-size : 2 rem;
     justify-content : center;
     margin-top: 15px;
      width : 100%;
+     align-items: center;
 
-     @media screen and (max-width : 1024px){
+
+
+
+  
+    
+
+     @media screen and (max-width : 740px){
+    
         margin-top: 5px;
         font-size: 0.7rem;
+        
     }
+    
+    @media screen and (max-width : 1024px){
+    
+        margin-top: 10px;
+        
+        
+    }
+  
 `

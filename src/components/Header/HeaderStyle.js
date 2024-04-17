@@ -107,6 +107,7 @@ margin-top: 20px;
 align-items : center;
 
 
+
 @media screen and (max-width : 1024px){
     margin : 20px auto;
     width : 80%;
