@@ -23,9 +23,7 @@ const SectionProductos = ({
     url_catalogo,
 }) => {
 
-    var redirectCatalogo = () => {
-        window.location.href ={url_catalogo};
-      };
+
 
   return (
     <>

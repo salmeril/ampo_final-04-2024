@@ -1,7 +1,9 @@
 import React, {useState,useEffect} from 'react';
 import { Nav,NavContainer,NavMenu,NavLink,NavLogo,NavbarMobilIcon, HeaderBanner, HeaderBannerTextP} from './NavbarStyle'
-import logoSF from "../../assest/img/logo2.png"
-
+import logoSF from "../../assest/img/Aporello Negro.png"
+import imagen1 from '../../assest/img/1banner.gif'; // Ruta de tu primera imagen
+import imagen2 from '../../assest/img/2banner.gif'; // Ruta de tu segunda imagen
+import imagen3 from '../../assest/img/3banner.gif'; // Ruta de tu tercera imagen
 
 const NavBar = ({toggle}) => {
   const [scrollNav,setScrollNav] = useState(false);
@@ -68,7 +70,7 @@ const NavBar = ({toggle}) => {
             offset={-80}
             to='contactos'
         >Contactos</NavLink>
-        <NavLink>Tienda Online</NavLink>
+       
       </NavMenu>
     </NavContainer>
     

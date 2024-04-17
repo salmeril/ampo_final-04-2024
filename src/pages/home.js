@@ -17,6 +17,11 @@ import {infoProductosUno,
   infoProductosNueve
 } from '../components/SectionProductos/productos_info'
 import Contacto from '../components/sectionContacto'
+import MessageButton from '../components/wp/Wp'
+import Footer from '../components/footer'
+import CookieMessage from '../components/Cookies/Cookies'
+
+
 
 const Home = () => {
 
@@ -41,7 +46,7 @@ const Home = () => {
     >
       Catalogo de nuestros productos
     </h1>
-
+    
     <SectionProductos {...infoProductosUno} />
     <SectionProductos {...infoProductosDos} />
     <SectionProductos {...infoProductosTres} />
@@ -52,7 +57,9 @@ const Home = () => {
     <SectionProductos {...infoProductosOcho} />
     <SectionProductos {...infoProductosNueve} />
     <Contacto/>
-
+    <MessageButton/>
+    <Footer></Footer>
+    <CookieMessage/>
     </>
   )
 }

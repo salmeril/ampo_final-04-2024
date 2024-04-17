@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const ContainerContacto = styled.section`
 color: black;
 width: 80%;
-height : 70vh;
+
 margin: 100px auto;
 
 @media screen and (max-width: 768px) {
@@ -48,6 +48,7 @@ margin-bottom : 50px;
 export const TextPredes = styled.p`
 font-size : 17px;
 font-weight : bold;
+margin-top: 120px;
 
 @media screen and (max-width : 1024px){
     text-align : center;
@@ -57,7 +58,7 @@ font-weight : bold;
 
 export const SocialMedias = styled.div`
 display :flex;
-margin-top : 15px;
+margin-top : 25px;
 @media screen and (max-width : 1024px){
     text-align : center;
     margin : 0 auto;
