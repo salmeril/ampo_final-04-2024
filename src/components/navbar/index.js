@@ -77,7 +77,7 @@ const NavBar = ({toggle}) => {
     </Nav>
     <HeaderBanner>
         <HeaderBannerTextP>
-            COMPRA MINIMA MAYORISTA $10.000 - CONSULTE OFERTAS EN PRODUCTOS SELECCIONADOS Y POR COMPRA EN CANTIDAD.
+            COMPRA MINIMA MAYORISTA $150.000 - CONSULTE OFERTAS EN PRODUCTOS SELECCIONADOS Y POR COMPRA EN CANTIDAD.
         </HeaderBannerTextP>
         </HeaderBanner> 
     </>

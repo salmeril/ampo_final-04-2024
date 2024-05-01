@@ -8,7 +8,7 @@ const WpButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleClick = () => {
-    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+    window.open(`https://wa.me/${+5491140224952}?text=${"Hola, me gustaria mas información sobre sus productos"}`, '_blank');
   };
 
   return (
