@@ -77,7 +77,7 @@ const NavBar = ({toggle}) => {
     </Nav>
     <HeaderBanner>
         <HeaderBannerTextP>
-            COMPRA MINIMA MAYORISTA $150.000 - CONSULTE OFERTAS EN PRODUCTOS SELECCIONADOS Y POR COMPRA EN CANTIDAD.
+            COMPRA MINIMA MAYORISTA EN BAZAR PLASTICO $70.000 + ENV. Y FRASCOS DE VIDRIO $20.000 + ENV. - CONSULTE OFERTAS EN PRODUCTOS SELECCIONADOS.
         </HeaderBannerTextP>
         </HeaderBanner> 
     </>

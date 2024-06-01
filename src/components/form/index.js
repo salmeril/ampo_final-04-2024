@@ -60,6 +60,8 @@ const ContactForm = () => {
     message: ''
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleChange = (e) => {
     setFormData((prevState) => ({
       ...prevState,
@@ -70,33 +72,24 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch(
-        'https://formsubmit.co/contacto@aporello.com.ar', // Reemplaza con tu correo
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(formData)
-        }
-      );
+    const response = await fetch('https://formspree.io/f/mbjnvjeo', { // Reemplaza YOUR_FORM_ID con tu Form ID de Formspree
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    });
 
-      if (response.ok) {
-        alert('Correo electrónico enviado correctamente');
-        setFormData({
-          name: '',
-          email: '',
-          message: ''
-        });
-      } else {
-        alert('Error al enviar el correo electrónico');
-      }
-    } catch (error) {
-      console.error('Error al enviar el formulario:', error);
-      alert('Error al enviar el formulario');
+    if (response.ok) {
+      setSubmitted(true);
+    } else {
+      alert('Error al enviar el formulario. Inténtalo de nuevo más tarde.');
     }
   };
+
+  if (submitted) {
+    return <p>¡Gracias por tu mensaje! Te responderemos pronto.</p>;
+  }
 
   return (
     <FormContainer onSubmit={handleSubmit}>

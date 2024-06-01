@@ -15,7 +15,7 @@ export const infoProductosUno = {
     parrafo : "Descubre la elegancia atemporal en nuestro catálogo de envases de vidrio para cosmética",
     foto : cosmeticaVidrio,
     orden : false,
-    url_catalogo :'/downloads/Envases cosmetica vidrio.pdf',
+    url_catalogo :'downloads/Envases cosmetica Vidrio.pdf',
     background : true,
 }
 
@@ -24,7 +24,7 @@ export const infoProductosDos = {
     parrafo :"Descubre la versatilidad en nuestro catálogo de Envases de plástico.",
     foto : cosmeticaPlastico,
     orden : true,
-    url_catalogo :'/downloads/Envases de cosmetica plastico.pdf',
+    url_catalogo :'downloads/Envases de cosmetica plastico.pdf',
     background : false,
 }
 
@@ -43,7 +43,7 @@ export const infoProductosCuatro = {
 
     foto : vidriodeco,
     orden : true,
-    url_catalogo :'downloads/Vidrio decorativo.pdf',
+    url_catalogo :'downloads/Vidrio Decorativo.pdf',
     background : false
 }
 
@@ -52,7 +52,7 @@ export const infoProductosCinco = {
     parrafo : "Descubre la Variedad de combinaciones en modelos de Envases y tapas.",
     foto : envasesytapas,
     orden : false,
-    url_catalogo :'downloads/envases y tapas.pdf',
+    url_catalogo :'downloads/Envases y tapas.pdf',
     background: true
 }
 
@@ -61,7 +61,7 @@ export const infoProductosSeis = {
     parrafo : "Conoce todos los Envases Alimenticios que Tenemos para Ofrecer.",
     foto : alimenticio,
     orden : true,
-    url_catalogo :'downloads/Envases alimenticios.pdf',
+    url_catalogo :'downloads/Envases Alimenticios.pdf',
     background : false
 }
 
